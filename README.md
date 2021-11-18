@@ -11,3 +11,6 @@
 9- Doğukan Kömürcü 150119770
 ````
 
+# ISSUE 5
+18/01/2021
+### UML Diagram is Created
