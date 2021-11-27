@@ -1,1702 +1,1631 @@
 [
- {
-   "No": "1.",
-   "Course Code": "ATA121",
-   "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "2.",
-   "Course Code": "MBG1201",
-   "Course Name": "Introduction to Modern Biology",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "3.",
-   "Course Code": "CSE1200",
-   "Course Name": "Introduction to Computer Engineering",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "4.",
-   "Course Code": "CSE1241",
-   "Course Name": "Computer Programming I",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "5.",
-   "Course Code": "MATH1001",
-   "Course Name": "Calculus I",
-   "Type": "Must",
-   "T": "4",
-   "U": "0",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "6.",
-   "Course Code": "PHYS1101",
-   "Course Name": "Physics I",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "7.",
-   "Course Code": "PHYS1103",
-   "Course Name": "Physics Lab I",
-   "Type": "Must",
-   "T": "0",
-   "U": "2",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "8.",
-   "Course Code": "TRD121",
-   "Course Name": "Türk Dili I",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "ATA122",
-   "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CSE1242",
-   "Course Name": "Computer Programming II",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "3.",
-   "Course Code": "MATH1002",
-   "Course Name": "Calculus II",
-   "Type": "Must",
-   "T": "4",
-   "U": "0",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "4.",
-   "Course Code": "MATH2256",
-   "Course Name": "Linear Algebra for Computer Engineering",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "5.",
-   "Course Code": "PHYS1102",
-   "Course Name": "Physics II",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "6.",
-   "Course Code": "PHYS1104",
-   "Course Name": "Physics Lab II",
-   "Type": "Must",
-   "T": "0",
-   "U": "2",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "7.",
-   "Course Code": "TRD122",
-   "Course Name": "Türk Dili II",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "8.",
-   "Course Code": "NTExxx",
-   "Course Name": "Non-Technical Elective - 1",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "CSE2023",
-   "Course Name": "Discrete Computational Structures",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CSE2225",
-   "Course Name": "Data Structures",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "7,00",
-   "ECTS": "7,00"
- },
- {
-   "No": "3.",
-   "Course Code": "ECON2004",
-   "Course Name": "Engineering Economy",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "4.",
-   "Course Code": "EE2031",
-   "Course Name": "Electric Circuits",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "5.",
-   "Course Code": "MATH2055",
-   "Course Name": "Differential Equations",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "6.",
-   "Course Code": "MATH2059",
-   "Course Name": "Numerical Methods",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "CSE2246",
-   "Course Name": "Analysis of Algorithms",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CSE2138",
-   "Course Name": "Systems Programming",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "7,00",
-   "ECTS": "7,00"
- },
- {
-   "No": "3.",
-   "Course Code": "CSE2260",
-   "Course Name": "Principles of Programming Languages",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "4.",
-   "Course Code": "EE2032",
-   "Course Name": "Electronics",
-   "Type": "Must",
-   "T": "2",
-   "U": "2",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "5.",
-   "Course Code": "STAT2253",
-   "Course Name": "Introduction to Probability and Statistics",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "CSE3000",
-   "Course Name": "Summer Practice I",
-   "Type": "Must",
-   "T": "0",
-   "U": "0",
-   "Credit": "10,00",
-   "ECTS": "10,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CSE3215",
-   "Course Name": "Digital Logic Design",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "3.",
-   "Course Code": "CSE3033",
-   "Course Name": "Operating Systems",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "7,00",
-   "ECTS": "7,00"
- },
- {
-   "No": "4.",
-   "Course Code": "CSE3055",
-   "Course Name": "Database Systems",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "7,00",
-   "ECTS": "7,00"
- },
- {
-   "No": "5.",
-   "Course Code": "CSE3063",
-   "Course Name": "Object-Oriented Software Design",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "6.",
-   "Course Code": "IE3081",
-   "Course Name": "Modeling and Discrete Simulation",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "CSE3038",
-   "Course Name": "Computer Organization",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "7,00",
-   "ECTS": "7,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CSE3044",
-   "Course Name": "Software Engineering",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "7,00",
-   "ECTS": "7,00"
- },
- {
-   "No": "3.",
-   "Course Code": "CSE3048",
-   "Course Name": "Introduction to Signals and Systems",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "4.",
-   "Course Code": "CSE3264",
-   "Course Name": "Formal Languages and Automata Theory",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "5.",
-   "Course Code": "IE3235",
-   "Course Name": "Operations Research",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "4,00",
-   "ECTS": "4,00"
- },
- {
-   "No": "6.",
-   "Course Code": "COM2202",
-   "Course Name": "Technical Comm. and Entrepreneurship",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "CSE4000",
-   "Course Name": "Summer Practice II",
-   "Type": "Must",
-   "T": "0",
-   "U": "0",
-   "Credit": "10,00",
-   "ECTS": "10,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CSE4074",
-   "Course Name": "Computer Networks",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "3.",
-   "Course Code": "CSE4219",
-   "Course Name": "Principles of Embedded System Design",
-   "Type": "Must",
-   "T": "3",
-   "U": "2",
-   "Credit": "6,00",
-   "ECTS": "6,00"
- },
- {
-   "No": "4.",
-   "Course Code": "CSE4297",
-   "Course Name": "Engineering Project I",
-   "Type": "Must",
-   "T": "0",
-   "U": "2",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "5.",
-   "Course Code": "ISG121",
-   "Course Name": "İş Sağlığı ve Güvenliği I",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "6.",
-   "Course Code": "CSE4288",
-   "Course Name": "Introduction to Machine Learning",
-   "Type": "Must",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "7.",
-   "Course Code": "UE",
-   "Course Name": "University Elective",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "8.",
-   "Course Code": "TExxx",
-   "Course Name": "Technical Elective - 1",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "CSE4298",
-   "Course Name": "Engineering Project II",
-   "Type": "Must",
-   "T": "0",
-   "U": "2",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "2.",
-   "Course Code": "ISG122",
-   "Course Name": "İş Sağlığı ve Güvenliği II",
-   "Type": "Must",
-   "T": "2",
-   "U": "0",
-   "Credit": "2,00",
-   "ECTS": "2,00"
- },
- {
-   "No": "3.",
-   "Course Code": "FTExxx",
-   "Course Name": "Faculty Technical Electives",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "4.",
-   "Course Code": "NTExxx",
-   "Course Name": "Non-Technical Elective - 2",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "5.",
-   "Course Code": "TExxx",
-   "Course Name": "Technical Elective - 2",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "6.",
-   "Course Code": "TExxx",
-   "Course Name": "Technical Elective - 3",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "7.",
-   "Course Code": "TExxx",
-   "Course Name": "Technical Elective - 4",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "CSE4026",
-   "Course Name": "Introduction to Robotics and Control Theory",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CSE4032",
-   "Course Name": "Introduction to Distributed Systems",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "3.",
-   "Course Code": "CSE4034",
-   "Course Name": "Advanced Unix Programming",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "4.",
-   "Course Code": "CSE4038",
-   "Course Name": "Introduction to Parallel Processing",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "5.",
-   "Course Code": "CSE4040",
-   "Course Name": "Cloud Computing",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "6.",
-   "Course Code": "CSE4044",
-   "Course Name": "Software Project Management",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "7.",
-   "Course Code": "CSE4053",
-   "Course Name": "Information Systems: Analysis and Design",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "8.",
-   "Course Code": "CSE4056",
-   "Course Name": "Management of Information Systems",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "9.",
-   "Course Code": "CSE4057",
-   "Course Name": "Information Systems Security",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "10.",
-   "Course Code": "CSE4058",
-   "Course Name": "Fundamentals of Electronic Commerce",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "11.",
-   "Course Code": "CSE4059",
-   "Course Name": "Internet Programming",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "12.",
-   "Course Code": "CSE4061",
-   "Course Name": "Compiler Design",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "13.",
-   "Course Code": "CSE4062",
-   "Course Name": "Introduction to Data Science and Analytics",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "14.",
-   "Course Code": "CSE4063",
-   "Course Name": "Fundamentals of Data Mining",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "15.",
-   "Course Code": "CSE4065",
-   "Course Name": "Introduction to Computational Genomics",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "16.",
-   "Course Code": "CSE4066",
-   "Course Name": "Introduction to Cryptography",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "17.",
-   "Course Code": "CSE4067",
-   "Course Name": "Introduction to Blockchain Programming",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "18.",
-   "Course Code": "CSE4070",
-   "Course Name": "Software Frameworks",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "19.",
-   "Course Code": "CSE4075",
-   "Course Name": "Wireless and Mobile Networks",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "20.",
-   "Course Code": "CSE4082",
-   "Course Name": "Artificial Intelligence",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "21.",
-   "Course Code": "CSE4083",
-   "Course Name": "Computer Graphics",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "22.",
-   "Course Code": "CSE4084",
-   "Course Name": "Multimedia Systems",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "23.",
-   "Course Code": "CSE4085",
-   "Course Name": "Human Computer Interaction",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "24.",
-   "Course Code": "CSE4086",
-   "Course Name": "Mobile Device Programming",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "25.",
-   "Course Code": "CSE4217",
-   "Course Name": "Microprocessors",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "26.",
-   "Course Code": "CSE4093",
-   "Course Name": "Special Topics in Computer Engineering I",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "27.",
-   "Course Code": "CSE4094",
-   "Course Name": "Special Topics in Computer Engineering II",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "28.",
-   "Course Code": "CSE4095",
-   "Course Name": "Special Topics in Computer Engineering III",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "29.",
-   "Course Code": "CSE4096",
-   "Course Name": "Special Topics in Computer Engineering IV",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "BIOE4072",
-   "Course Name": "Planning and Management of Research",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "2.",
-   "Course Code": "CHE4060",
-   "Course Name": "Cost Management in Chemical Industries",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "3.",
-   "Course Code": "CHE4068",
-   "Course Name": "Financial Engineering",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "4.",
-   "Course Code": "CHE4080",
-   "Course Name": "Chemical Engineering for Sustainable Biosphere",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "5.",
-   "Course Code": "CSE4044",
-   "Course Name": "Software Project Management",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "6.",
-   "Course Code": "CSE4056",
-   "Course Name": "Management of Information Systems",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "7.",
-   "Course Code": "CSE4062",
-   "Course Name": "Introduction to Data Science and Analytics",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "8.",
-   "Course Code": "EE4056",
-   "Course Name": "Introduction to Information Systems Management",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "9.",
-   "Course Code": "EE4062",
-   "Course Name": "Introduction to Image Processing",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "10.",
-   "Course Code": "ENVE4062",
-   "Course Name": "Energy and the Environment",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "11.",
-   "Course Code": "ENVE4063",
-   "Course Name": "Construction Materials for Environmental Engineering",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "12.",
-   "Course Code": "IE4055",
-   "Course Name": "Design of Experiments",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "13.",
-   "Course Code": "IE4087",
-   "Course Name": "Introduction to Total Quality Management",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "14.",
-   "Course Code": "ME3004",
-   "Course Name": "Mathematical Modeling in Mechanical Engineering",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "15.",
-   "Course Code": "ME3022",
-   "Course Name": "Mechatronics",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "16.",
-   "Course Code": "ME4018",
-   "Course Name": "Introduction to Robotics",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "17.",
-   "Course Code": "ME4022",
-   "Course Name": "Control Systems",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "18.",
-   "Course Code": "ME4033",
-   "Course Name": "Designing Quality Products",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "19.",
-   "Course Code": "ME4051",
-   "Course Name": "Automotive Engineering",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "20.",
-   "Course Code": "MGT4076",
-   "Course Name": "Quality Management System in Automotive Industry",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "21.",
-   "Course Code": "MGT4082",
-   "Course Name": "Advanced innovative Design Management for Entrepreneurship",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "22.",
-   "Course Code": "MGT4084",
-   "Course Name": "Innovation and New Product Development Management",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "23.",
-   "Course Code": "MGT4086",
-   "Course Name": "Managing Engineering and Technology",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "24.",
-   "Course Code": "MGT4088",
-   "Course Name": "Project Management for Engineers",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "25.",
-   "Course Code": "MSE4073",
-   "Course Name": "Materials Engineering Economics and Plant Design",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "26.",
-   "Course Code": "MSE4074",
-   "Course Name": "Total Quality Management in Materials Engineering",
-   "Type": "Elective",
-   "T": "3",
-   "U": "0",
-   "Credit": "5,00",
-   "ECTS": "5,00"
- },
- {
-   "No": "No",
-   "Course Code": "Course Code",
-   "Course Name": "Course Name",
-   "Type": "Type",
-   "T": "T",
-   "U": "U",
-   "Credit": "Credit",
-   "ECTS": "ECTS"
- },
- {
-   "No": "1.",
-   "Course Code": "BUS1003",
-   "Course Name": "Entrepreneurship and Innovation",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "2.",
-   "Course Code": "BUS1004",
-   "Course Name": "Strategic Entrepreneurship",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "3.",
-   "Course Code": "BUS2005",
-   "Course Name": "International Business",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "4.",
-   "Course Code": "CAS1001",
-   "Course Name": "Self Management",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "5.",
-   "Course Code": "CAS1010",
-   "Course Name": "Our Biosphere",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "6.",
-   "Course Code": "CAS1061",
-   "Course Name": "Geometric Origami",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "7.",
-   "Course Code": "CAS2001",
-   "Course Name": "Energy for Physical Activity",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "8.",
-   "Course Code": "CAS2002",
-   "Course Name": "Human Performance and Nutrition",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "9.",
-   "Course Code": "CAS2003",
-   "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "10.",
-   "Course Code": "CAS2004",
-   "Course Name": "Interpersonal Relations and Communication",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "11.",
-   "Course Code": "CAS2005",
-   "Course Name": "Trekking and Orienteering",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "12.",
-   "Course Code": "CAS3001",
-   "Course Name": "Earthquake and Rescue Principles",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "13.",
-   "Course Code": "CAS3044",
-   "Course Name": "Positive Thinking",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "14.",
-   "Course Code": "COMM2060",
-   "Course Name": "Communication Models and Techniques",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "15.",
-   "Course Code": "FNCE3003",
-   "Course Name": "Investment Planning",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "16.",
-   "Course Code": "HR1013",
-   "Course Name": "Career Development",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "17.",
-   "Course Code": "HR4001",
-   "Course Name": "Career Orientation",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "18.",
-   "Course Code": "HSS3002",
-   "Course Name": "Ethics in Engineering and Science",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "19.",
-   "Course Code": "IKT1054",
-   "Course Name": "Industrial and Economic Sociology",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "20.",
-   "Course Code": "INF1001",
-   "Course Name": "Information Literacy in Engineering",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "21.",
-   "Course Code": "LAW2004",
-   "Course Name": "Labor Law",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "22.",
-   "Course Code": "MAN1001",
-   "Course Name": "Principles of Managerial Economics & Financial Management",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "23.",
-   "Course Code": "MGT1021",
-   "Course Name": "Design, Innovation and Entrepreneurship",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "24.",
-   "Course Code": "MGT3082",
-   "Course Name": "Creativity And Innovation Management",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "25.",
-   "Course Code": "MRK3082",
-   "Course Name": "Integrated Marketing Communication",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "26.",
-   "Course Code": "MRK3084",
-   "Course Name": "Brand Creation/Branding",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "27.",
-   "Course Code": "NTE1002",
-   "Course Name": "Effects of Human Behaviour on Environment",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "28.",
-   "Course Code": "NTE1003",
-   "Course Name": "The Culture of Radiation Safety",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "29.",
-   "Course Code": "NTE1004",
-   "Course Name": "World Cultures",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "30.",
-   "Course Code": "NTE1006",
-   "Course Name": "Basic Principles of Accessibility in Informatics and Technology",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "31.",
-   "Course Code": "NTE1008",
-   "Course Name": "Cinema",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "32.",
-   "Course Code": "NTE1010",
-   "Course Name": "Introduction to Finance for Engineers",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "33.",
-   "Course Code": "NTE1011",
-   "Course Name": "Business Communication",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "34.",
-   "Course Code": "NTE1012",
-   "Course Name": "Introduction to Corporate Governance for Engineers",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "35.",
-   "Course Code": "NTE1013",
-   "Course Name": "Business Intelligence for Managers",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "36.",
-   "Course Code": "NTE1014",
-   "Course Name": "Introduction to Strategic Human Resources Management",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "37.",
-   "Course Code": "NTE1015",
-   "Course Name": "Introduction to Leadership & Management for Engineers",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "38.",
-   "Course Code": "NTE1016",
-   "Course Name": "Introduction to Strategy for Engineers",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "39.",
-   "Course Code": "OB2040",
-   "Course Name": "Industrial Psychology",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "40.",
-   "Course Code": "OB2041",
-   "Course Name": "Behavioral Sciences for Engineers",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "41.",
-   "Course Code": "OB3043",
-   "Course Name": "Organizational Behaviour",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "42.",
-   "Course Code": "SOC3082",
-   "Course Name": "Environmental Sociology",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "43.",
-   "Course Code": "YDA1001",
-   "Course Name": "German for Beginners",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "44.",
-   "Course Code": "YDA1002",
-   "Course Name": "German",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "45.",
-   "Course Code": "YDA1003",
-   "Course Name": "German Communication",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "46.",
-   "Course Code": "YDA2001",
-   "Course Name": "Seminars in German",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "47.",
-   "Course Code": "YDF1001",
-   "Course Name": "French for Beginners",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "48.",
-   "Course Code": "YDF1002",
-   "Course Name": "French",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "49.",
-   "Course Code": "YDI1004",
-   "Course Name": "Report Writing in English",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "50.",
-   "Course Code": "YDIS1001",
-   "Course Name": "Spanish for Beginners",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- },
- {
-   "No": "51.",
-   "Course Code": "YDIS1002",
-   "Course Name": "Spanish",
-   "Type": "Elective",
-   "T": "2",
-   "U": "0",
-   "Credit": "3,00",
-   "ECTS": "3,00"
- }
+  {
+    "semester1":[{
+      "No": "1.",
+      "Course Code": "ATA121",
+      "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+      "Type": "Must",
+      "T": "2",
+      "U": "0",
+      "Credit": "2,00",
+      "ECTS": "2,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "MBG1201",
+        "Course Name": "Introduction to Modern Biology",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "CSE1200",
+        "Course Name": "Introduction to Computer Engineering",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "CSE1241",
+        "Course Name": "Computer Programming I",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "6,00",
+        "ECTS": "6,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "MATH1001",
+        "Course Name": "Calculus I",
+        "Type": "Must",
+        "T": "4",
+        "U": "0",
+        "Credit": "6,00",
+        "ECTS": "6,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "PHYS1101",
+        "Course Name": "Physics I",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      },
+      {
+        "No": "7.",
+        "Course Code": "PHYS1103",
+        "Course Name": "Physics Lab I",
+        "Type": "Must",
+        "T": "0",
+        "U": "2",
+        "Credit": "2,00",
+        "ECTS": "2,00"
+      },
+      {
+        "No": "8.",
+        "Course Code": "TRD121",
+        "Course Name": "Türk Dili I",
+        "Type": "Must",
+        "T": "2",
+        "U": "0",
+        "Credit": "2,00",
+        "ECTS": "2,00"
+      }]
+  },
+
+  {
+    "semester2": [{
+      "No": "1.",
+      "Course Code": "ATA122",
+      "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
+      "Type": "Must",
+      "T": "2",
+      "U": "0",
+      "Credit": "2,00",
+      "ECTS": "2,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CSE1242",
+        "Course Name": "Computer Programming II",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "6,00",
+        "ECTS": "6,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "MATH1002",
+        "Course Name": "Calculus II",
+        "Type": "Must",
+        "T": "4",
+        "U": "0",
+        "Credit": "6,00",
+        "ECTS": "6,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "MATH2256",
+        "Course Name": "Linear Algebra for Computer Engineering",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "PHYS1102",
+        "Course Name": "Physics II",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "PHYS1104",
+        "Course Name": "Physics Lab II",
+        "Type": "Must",
+        "T": "0",
+        "U": "2",
+        "Credit": "2,00",
+        "ECTS": "2,00"
+      },
+      {
+        "No": "7.",
+        "Course Code": "TRD122",
+        "Course Name": "Türk Dili II",
+        "Type": "Must",
+        "T": "2",
+        "U": "0",
+        "Credit": "2,00",
+        "ECTS": "2,00"
+      },
+      {
+        "No": "8.",
+        "Course Code": "NTExxx",
+        "Course Name": "Non-Technical Elective - 1",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      }]
+  },
+
+  {
+    "semester3": [{
+      "No": "1.",
+      "Course Code": "CSE2023",
+      "Course Name": "Discrete Computational Structures",
+      "Type": "Must",
+      "T": "3",
+      "U": "0",
+      "Credit": "6,00",
+      "ECTS": "6,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CSE2225",
+        "Course Name": "Data Structures",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "7,00",
+        "ECTS": "7,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "ECON2004",
+        "Course Name": "Engineering Economy",
+        "Type": "Must",
+        "T": "2",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "EE2031",
+        "Course Name": "Electric Circuits",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "MATH2055",
+        "Course Name": "Differential Equations",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "MATH2059",
+        "Course Name": "Numerical Methods",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      }]
+  },
+  {
+    "semester4": [{
+      "No": "1.",
+      "Course Code": "CSE2246",
+      "Course Name": "Analysis of Algorithms",
+      "Type": "Must",
+      "T": "3",
+      "U": "2",
+      "Credit": "6,00",
+      "ECTS": "6,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CSE2138",
+        "Course Name": "Systems Programming",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "7,00",
+        "ECTS": "7,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "CSE2260",
+        "Course Name": "Principles of Programming Languages",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "EE2032",
+        "Course Name": "Electronics",
+        "Type": "Must",
+        "T": "2",
+        "U": "2",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "STAT2253",
+        "Course Name": "Introduction to Probability and Statistics",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      }]
+  },
+  {
+    "semester5": [{
+      "No": "1.",
+      "Course Code": "CSE3000",
+      "Course Name": "Summer Practice I",
+      "Type": "Must",
+      "T": "0",
+      "U": "0",
+      "Credit": "10,00",
+      "ECTS": "10,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CSE3215",
+        "Course Name": "Digital Logic Design",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "6,00",
+        "ECTS": "6,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "CSE3033",
+        "Course Name": "Operating Systems",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "7,00",
+        "ECTS": "7,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "CSE3055",
+        "Course Name": "Database Systems",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "7,00",
+        "ECTS": "7,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "CSE3063",
+        "Course Name": "Object-Oriented Software Design",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "IE3081",
+        "Course Name": "Modeling and Discrete Simulation",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      }]
+  },
+
+  {
+    "semester6": [{
+      "No": "1.",
+      "Course Code": "CSE3038",
+      "Course Name": "Computer Organization",
+      "Type": "Must",
+      "T": "3",
+      "U": "2",
+      "Credit": "7,00",
+      "ECTS": "7,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CSE3044",
+        "Course Name": "Software Engineering",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "7,00",
+        "ECTS": "7,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "CSE3048",
+        "Course Name": "Introduction to Signals and Systems",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "CSE3264",
+        "Course Name": "Formal Languages and Automata Theory",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "IE3235",
+        "Course Name": "Operations Research",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "4,00",
+        "ECTS": "4,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "COM2202",
+        "Course Name": "Technical Comm. and Entrepreneurship",
+        "Type": "Must",
+        "T": "2",
+        "U": "0",
+        "Credit": "2,00",
+        "ECTS": "2,00"
+      }]
+  },
+
+  {
+    "semester7": [{
+      "No": "1.",
+      "Course Code": "CSE4000",
+      "Course Name": "Summer Practice II",
+      "Type": "Must",
+      "T": "0",
+      "U": "0",
+      "Credit": "10,00",
+      "ECTS": "10,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CSE4074",
+        "Course Name": "Computer Networks",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "CSE4219",
+        "Course Name": "Principles of Embedded System Design",
+        "Type": "Must",
+        "T": "3",
+        "U": "2",
+        "Credit": "6,00",
+        "ECTS": "6,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "CSE4297",
+        "Course Name": "Engineering Project I",
+        "Type": "Must",
+        "T": "0",
+        "U": "2",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "ISG121",
+        "Course Name": "İş Sağlığı ve Güvenliği I",
+        "Type": "Must",
+        "T": "2",
+        "U": "0",
+        "Credit": "2,00",
+        "ECTS": "2,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "CSE4288",
+        "Course Name": "Introduction to Machine Learning",
+        "Type": "Must",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "7.",
+        "Course Code": "UE",
+        "Course Name": "University Elective",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "8.",
+        "Course Code": "TExxx",
+        "Course Name": "Technical Elective - 1",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      }]
+  },
+
+  {
+    "semester8": [{
+      "No": "1.",
+      "Course Code": "CSE4298",
+      "Course Name": "Engineering Project II",
+      "Type": "Must",
+      "T": "0",
+      "U": "2",
+      "Credit": "5,00",
+      "ECTS": "5,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "ISG122",
+        "Course Name": "İş Sağlığı ve Güvenliği II",
+        "Type": "Must",
+        "T": "2",
+        "U": "0",
+        "Credit": "2,00",
+        "ECTS": "2,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "FTExxx",
+        "Course Name": "Faculty Technical Electives",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "NTExxx",
+        "Course Name": "Non-Technical Elective - 2",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "TExxx",
+        "Course Name": "Technical Elective - 2",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "TExxx",
+        "Course Name": "Technical Elective - 3",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "7.",
+        "Course Code": "TExxx",
+        "Course Name": "Technical Elective - 4",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      }]
+  },
+  {
+    "technical_elective": [{
+      "No": "1.",
+      "Course Code": "CSE4026",
+      "Course Name": "Introduction to Robotics and Control Theory",
+      "Type": "Elective",
+      "T": "3",
+      "U": "0",
+      "Credit": "5,00",
+      "ECTS": "5,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CSE4032",
+        "Course Name": "Introduction to Distributed Systems",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "CSE4034",
+        "Course Name": "Advanced Unix Programming",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "CSE4038",
+        "Course Name": "Introduction to Parallel Processing",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "CSE4040",
+        "Course Name": "Cloud Computing",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "CSE4044",
+        "Course Name": "Software Project Management",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "7.",
+        "Course Code": "CSE4053",
+        "Course Name": "Information Systems: Analysis and Design",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "8.",
+        "Course Code": "CSE4056",
+        "Course Name": "Management of Information Systems",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "9.",
+        "Course Code": "CSE4057",
+        "Course Name": "Information Systems Security",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "10.",
+        "Course Code": "CSE4058",
+        "Course Name": "Fundamentals of Electronic Commerce",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "11.",
+        "Course Code": "CSE4059",
+        "Course Name": "Internet Programming",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "12.",
+        "Course Code": "CSE4061",
+        "Course Name": "Compiler Design",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "13.",
+        "Course Code": "CSE4062",
+        "Course Name": "Introduction to Data Science and Analytics",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "14.",
+        "Course Code": "CSE4063",
+        "Course Name": "Fundamentals of Data Mining",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "15.",
+        "Course Code": "CSE4065",
+        "Course Name": "Introduction to Computational Genomics",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "16.",
+        "Course Code": "CSE4066",
+        "Course Name": "Introduction to Cryptography",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "17.",
+        "Course Code": "CSE4067",
+        "Course Name": "Introduction to Blockchain Programming",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "18.",
+        "Course Code": "CSE4070",
+        "Course Name": "Software Frameworks",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "19.",
+        "Course Code": "CSE4075",
+        "Course Name": "Wireless and Mobile Networks",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "20.",
+        "Course Code": "CSE4082",
+        "Course Name": "Artificial Intelligence",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "21.",
+        "Course Code": "CSE4083",
+        "Course Name": "Computer Graphics",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "22.",
+        "Course Code": "CSE4084",
+        "Course Name": "Multimedia Systems",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "23.",
+        "Course Code": "CSE4085",
+        "Course Name": "Human Computer Interaction",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "24.",
+        "Course Code": "CSE4086",
+        "Course Name": "Mobile Device Programming",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "25.",
+        "Course Code": "CSE4217",
+        "Course Name": "Microprocessors",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "26.",
+        "Course Code": "CSE4093",
+        "Course Name": "Special Topics in Computer Engineering I",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "27.",
+        "Course Code": "CSE4094",
+        "Course Name": "Special Topics in Computer Engineering II",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "28.",
+        "Course Code": "CSE4095",
+        "Course Name": "Special Topics in Computer Engineering III",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "29.",
+        "Course Code": "CSE4096",
+        "Course Name": "Special Topics in Computer Engineering IV",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      }]
+  },
+
+  {
+    "faculty_technical_elective": [{
+      "No": "1.",
+      "Course Code": "BIOE4072",
+      "Course Name": "Planning and Management of Research",
+      "Type": "Elective",
+      "T": "3",
+      "U": "0",
+      "Credit": "5,00",
+      "ECTS": "5,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "CHE4060",
+        "Course Name": "Cost Management in Chemical Industries",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "CHE4068",
+        "Course Name": "Financial Engineering",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "CHE4080",
+        "Course Name": "Chemical Engineering for Sustainable Biosphere",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "CSE4044",
+        "Course Name": "Software Project Management",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "CSE4056",
+        "Course Name": "Management of Information Systems",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "7.",
+        "Course Code": "CSE4062",
+        "Course Name": "Introduction to Data Science and Analytics",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "8.",
+        "Course Code": "EE4056",
+        "Course Name": "Introduction to Information Systems Management",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "9.",
+        "Course Code": "EE4062",
+        "Course Name": "Introduction to Image Processing",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "10.",
+        "Course Code": "ENVE4062",
+        "Course Name": "Energy and the Environment",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "11.",
+        "Course Code": "ENVE4063",
+        "Course Name": "Construction Materials for Environmental Engineering",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "12.",
+        "Course Code": "IE4055",
+        "Course Name": "Design of Experiments",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "13.",
+        "Course Code": "IE4087",
+        "Course Name": "Introduction to Total Quality Management",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "14.",
+        "Course Code": "ME3004",
+        "Course Name": "Mathematical Modeling in Mechanical Engineering",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "15.",
+        "Course Code": "ME3022",
+        "Course Name": "Mechatronics",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "16.",
+        "Course Code": "ME4018",
+        "Course Name": "Introduction to Robotics",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "17.",
+        "Course Code": "ME4022",
+        "Course Name": "Control Systems",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "18.",
+        "Course Code": "ME4033",
+        "Course Name": "Designing Quality Products",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "19.",
+        "Course Code": "ME4051",
+        "Course Name": "Automotive Engineering",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "20.",
+        "Course Code": "MGT4076",
+        "Course Name": "Quality Management System in Automotive Industry",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "21.",
+        "Course Code": "MGT4082",
+        "Course Name": "Advanced innovative Design Management for Entrepreneurship",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "22.",
+        "Course Code": "MGT4084",
+        "Course Name": "Innovation and New Product Development Management",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "23.",
+        "Course Code": "MGT4086",
+        "Course Name": "Managing Engineering and Technology",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "24.",
+        "Course Code": "MGT4088",
+        "Course Name": "Project Management for Engineers",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "25.",
+        "Course Code": "MSE4073",
+        "Course Name": "Materials Engineering Economics and Plant Design",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      },
+      {
+        "No": "26.",
+        "Course Code": "MSE4074",
+        "Course Name": "Total Quality Management in Materials Engineering",
+        "Type": "Elective",
+        "T": "3",
+        "U": "0",
+        "Credit": "5,00",
+        "ECTS": "5,00"
+      }]
+  },
+
+  {
+    "non_technical_elective": [{
+      "No": "1.",
+      "Course Code": "BUS1003",
+      "Course Name": "Entrepreneurship and Innovation",
+      "Type": "Elective",
+      "T": "2",
+      "U": "0",
+      "Credit": "3,00",
+      "ECTS": "3,00"
+    },
+      {
+        "No": "2.",
+        "Course Code": "BUS1004",
+        "Course Name": "Strategic Entrepreneurship",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "3.",
+        "Course Code": "BUS2005",
+        "Course Name": "International Business",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "4.",
+        "Course Code": "CAS1001",
+        "Course Name": "Self Management",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "5.",
+        "Course Code": "CAS1010",
+        "Course Name": "Our Biosphere",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "6.",
+        "Course Code": "CAS1061",
+        "Course Name": "Geometric Origami",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "7.",
+        "Course Code": "CAS2001",
+        "Course Name": "Energy for Physical Activity",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "8.",
+        "Course Code": "CAS2002",
+        "Course Name": "Human Performance and Nutrition",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "9.",
+        "Course Code": "CAS2003",
+        "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "10.",
+        "Course Code": "CAS2004",
+        "Course Name": "Interpersonal Relations and Communication",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "11.",
+        "Course Code": "CAS2005",
+        "Course Name": "Trekking and Orienteering",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "12.",
+        "Course Code": "CAS3001",
+        "Course Name": "Earthquake and Rescue Principles",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "13.",
+        "Course Code": "CAS3044",
+        "Course Name": "Positive Thinking",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "14.",
+        "Course Code": "COMM2060",
+        "Course Name": "Communication Models and Techniques",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "15.",
+        "Course Code": "FNCE3003",
+        "Course Name": "Investment Planning",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "16.",
+        "Course Code": "HR1013",
+        "Course Name": "Career Development",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "17.",
+        "Course Code": "HR4001",
+        "Course Name": "Career Orientation",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "18.",
+        "Course Code": "HSS3002",
+        "Course Name": "Ethics in Engineering and Science",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "19.",
+        "Course Code": "IKT1054",
+        "Course Name": "Industrial and Economic Sociology",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "20.",
+        "Course Code": "INF1001",
+        "Course Name": "Information Literacy in Engineering",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "21.",
+        "Course Code": "LAW2004",
+        "Course Name": "Labor Law",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "22.",
+        "Course Code": "MAN1001",
+        "Course Name": "Principles of Managerial Economics & Financial Management",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "23.",
+        "Course Code": "MGT1021",
+        "Course Name": "Design, Innovation and Entrepreneurship",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "24.",
+        "Course Code": "MGT3082",
+        "Course Name": "Creativity And Innovation Management",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "25.",
+        "Course Code": "MRK3082",
+        "Course Name": "Integrated Marketing Communication",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "26.",
+        "Course Code": "MRK3084",
+        "Course Name": "Brand Creation/Branding",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "27.",
+        "Course Code": "NTE1002",
+        "Course Name": "Effects of Human Behaviour on Environment",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "28.",
+        "Course Code": "NTE1003",
+        "Course Name": "The Culture of Radiation Safety",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "29.",
+        "Course Code": "NTE1004",
+        "Course Name": "World Cultures",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "30.",
+        "Course Code": "NTE1006",
+        "Course Name": "Basic Principles of Accessibility in Informatics and Technology",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "31.",
+        "Course Code": "NTE1008",
+        "Course Name": "Cinema",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "32.",
+        "Course Code": "NTE1010",
+        "Course Name": "Introduction to Finance for Engineers",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "33.",
+        "Course Code": "NTE1011",
+        "Course Name": "Business Communication",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "34.",
+        "Course Code": "NTE1012",
+        "Course Name": "Introduction to Corporate Governance for Engineers",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "35.",
+        "Course Code": "NTE1013",
+        "Course Name": "Business Intelligence for Managers",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "36.",
+        "Course Code": "NTE1014",
+        "Course Name": "Introduction to Strategic Human Resources Management",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "37.",
+        "Course Code": "NTE1015",
+        "Course Name": "Introduction to Leadership & Management for Engineers",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "38.",
+        "Course Code": "NTE1016",
+        "Course Name": "Introduction to Strategy for Engineers",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "39.",
+        "Course Code": "OB2040",
+        "Course Name": "Industrial Psychology",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "40.",
+        "Course Code": "OB2041",
+        "Course Name": "Behavioral Sciences for Engineers",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "41.",
+        "Course Code": "OB3043",
+        "Course Name": "Organizational Behaviour",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "42.",
+        "Course Code": "SOC3082",
+        "Course Name": "Environmental Sociology",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "43.",
+        "Course Code": "YDA1001",
+        "Course Name": "German for Beginners",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "44.",
+        "Course Code": "YDA1002",
+        "Course Name": "German",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "45.",
+        "Course Code": "YDA1003",
+        "Course Name": "German Communication",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "46.",
+        "Course Code": "YDA2001",
+        "Course Name": "Seminars in German",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "47.",
+        "Course Code": "YDF1001",
+        "Course Name": "French for Beginners",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "48.",
+        "Course Code": "YDF1002",
+        "Course Name": "French",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "49.",
+        "Course Code": "YDI1004",
+        "Course Name": "Report Writing in English",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "50.",
+        "Course Code": "YDIS1001",
+        "Course Name": "Spanish for Beginners",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      },
+      {
+        "No": "51.",
+        "Course Code": "YDIS1002",
+        "Course Name": "Spanish",
+        "Type": "Elective",
+        "T": "2",
+        "U": "0",
+        "Credit": "3,00",
+        "ECTS": "3,00"
+      }]
+  }
 ]
