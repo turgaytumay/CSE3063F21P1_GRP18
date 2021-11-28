@@ -18,3 +18,4 @@ Date: 18/11/2021
 ### Sequence Diagram is Created
 ![Sequence_diagram_w1.drawio.png](Sequence_diagram_w1.drawio.png)
 ### Real UML Diagram is Created
+![umlclassdiagram.drawio.png](umlclassdiagram.drawio.png)
