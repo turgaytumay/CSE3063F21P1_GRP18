@@ -15,3 +15,5 @@
 Date: 18/11/2021
 ### UML Diagram is Created
 ![UMLDiagramPrototype.png](UMLDiagramPrototype.png)
+### Sequence Diagram is Created
+![Sequence_diagram_w1.drawio.png](Sequence_diagram_w1.drawio.png)
