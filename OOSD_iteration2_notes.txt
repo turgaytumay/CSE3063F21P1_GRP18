@@ -1,0 +1,24 @@
+DÜZELTİLENLER:
+1- Kurs saat ve günlerini ayarlamak için ScheduleManager class'ı eklendi.
+2- Kurs tiplerinin(FTE-NTE-TE-CSE4298) farklı kontrollerinin yapılabilmesi için bu kurslar için ayrı class oluşturuldu.
+3- Yukarıda belirtilen kurslar Course class'ından miras aldılar.
+4- Random transkipt oluşturmak için StudentManager içindeki randomTranscript methodunda düzenlemeler yapıldı.
+5- CourseSectionların(Pratik saati olan kurslar) kursun teorik saatlerinin ortak olması için düzenlemeler yapıldı.
+6- FileManager student id, student name ve kurs bilgilerini okurken olan hatalar düzeltildi.
+7- Student class attribute kısımlarında değişiklikler yapıldı.(takenCourses etc.)
+8- FileManager problemleri ve transkriptleri dosyalara yazmak için methodlar eklendi. 
+
+
+YAPILACAKLAR:
+1- Student class içinde getCompletedCredit methodunun içi doldurulacak. TakenCourse içindeki geçtiği kursların toplam kredisi return edilecek.
+2- NTE - FTE subclassları için checkRequirement methodunun içi doldurulacak. Bu kurslar için gerekli olan koşula göre true ya da false return edilecek.
+3- Advisor classı için checkCollision methodunun içi doldurulacak. RequestedCourses içinde dolaşılarak ders çakışmaları kontrol edilecek. Çakışan ders öğrencinin listesinden silinecek ve CollisionProblems'e eklenecek.
+4- course.json dosyasında önkoşul düzenlemeleri yapılacak. Bazı derslerin(Calculus2 etc.) önkoşulu eksik.
+5- Student class içinde GPA hesaplaması yapılacak. takenCourses içinde gezinerek alınan harf notuna göre GPA hesaplanacak.
+6- Student randomTranscript methodu içinde alınan dersler ve notları rasgele seçilirken seçmeli dersleri TExxx yerine TE derslerinden rasgele seçicez.
+7- Problem yazdırmada sıkıntı var o çözülecek.
+
+GÖREV DAĞILIMI:
+1-5 --> Süleyman Burak Özcan, Burak Karaçuka.
+2-3-4-6 --> Hüseyin Hasılcı, Turgay Tumay, Hasan Hut, Doğukan Kömürcü.
+7 --> Murat Fidan.
