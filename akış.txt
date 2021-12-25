@@ -1,0 +1,31 @@
+1 - CourseManager class'ı FileManager class'ının readCourses(String path,  String courseCategory) methodunu çağırarak,
+kursları okur ve Course objelerini oluşturur.(NTE-FTE-TE ve zorunlu dersleri ayrı ayrı classlarda oluşturur.)
+
+2 - Kurslar oluştuktan sonra kursların gün ve saatlerini ayarlamak için CourseManager class'ı ScheduleManager'ın scheduleCourse(Course course, int practiceHour, int theoricHour) methodunu çağırır.
+
+3 - Kurslar ile ilgili işlemler bitince StudentManager class'ı createRandomStudent(String semester) methodunu içinde FileManager class'ının readStudents(String idPath, String namePath) methodunu çağırır.
+öğrencileri okur ve Student objelerini oluşturur.
+
+4 - Öğrenciler oluşturulduktan sonra StudentManager kendi içindeki randomTranscript(Student student, String semester) methodu ile öğrencinin şuana kadar aldığı dersleri CourseManager'ın getPastSemesterCourses(int semester) methodunu çağırır ve bu derslerin notlarını randomize şekilde oluşturur.
+
+5 - Transcriptlerde oluştuktan sonra registration simülasyonuna geçmeden önce StudentManager class'ı FileManager class'ının writeTranscript(ArrayList<Student> studentList) methodunu çağırarak her öğrenci için öğrencinin transcriptini içeren dosyalar oluşturur.
+
+6 - Her öğrenci için registration işlemini gerçekleştirmek için StudentManager class'ının requestCourses(String semester) methodu çağırılır.
+
+7 - Bu method kendi içinde öğrencinin kaldığı dersleri ve CourseManager'ın getCurrentSemesterCourses(int semester) methodunu çağırırarak bu dönem alması gereken dersleri listeler.(Kaldığı derslerin etkilediği derslerin sunulmaması gibi kontrol yaparak.)
+
+8 - Öğrenciye alabileceği dersler sunulup, öğrenci için rasgele bir seçim yaptırdıktan sonra seçilen derslerin sistemsel ve advisor tarafından kontrollerine geçilir.
+
+9 - StudentManager class'ı RegisterationManager'ın checkQuotaProblems(Student student) methodunu çağırarak öğrencinin seçtiği derslerde quota kontrolü yapar.
+
+10 - StudentManager class'ı Advisor'ın checkCourseRequirements(Student student) methodunu çağırarak öğrencinin seçtiği derslerde özel requirement kontrollerini yapar. (TE dersleri için 2 taneden fazla alamama, Bitirme projesi için kredi gerekliliği gibi.)
+
+11 - StudentManager class'ı Advisor'ın checkCollision(Student student) methodunu çağırarak öğrencinin seçtiği derslerde çakışma kontrolü yapar.
+
+12 - Kontrollerden sonra öğrencinin alabileceği dersler Advisor'ın approvalCourses(Student student) methodu ile öğrencinin aldığı derslere eklenir.
+
+13 - Bu registration süreci boyunca yapılan kontrolleri özetleyen bir output file FileManager'ın writeProblemToFile() fonksiyonu kullanılarak yazdırılır.
+
+14 - Aynı şekilde her öğrencinin bu süreçte karşılaştığı problemler öğrencinin kendi dosyasına yazdırılır.
+
+
