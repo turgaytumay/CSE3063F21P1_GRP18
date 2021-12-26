@@ -1,0 +1,20 @@
+DÜZELTİLENLER:
+1 - Ders kayıt sırasında yaşanılan problemler output.json ve ilgili student dosyalarına yazıldı.
+2 - Öğrenciye sunulan dersler kısmında sadece o döneme ait dersler ve FALL ya da SPRING parametresine göre kaldığı dersler getirildi.
+3 - Öğrenciye sunulan derslerde kaldığı derslerin sunumu için önkoşul kontrolü yapıldı.
+4 - CourseManager içinde kursları oluştururken quota sadece seçmeli derslere koyuldu. Demoda bu kısmı değiştirebiliriz farklı senaryolar için.
+5 - Problemlerin bulunduğu output dosyasına hata yazımları düzenlendi.  
+6 - Course semester bilgisi CourseManager createCourses methodunda düzenlendi.
+7 - Advisor içindeki kontrollerde requestedCourses listesinden ders silme işlemindeki hatalar giderildi.
+8 - Elective kurslar sunulurken ders havuzundan rasgele ders seçilip sunuldu. Önceden TExxx ile sunulan dersler şimdi TE derslerinden rasgele seçiliyor.
+9 - Course class'ı içinde getCourseType içinde courseName döndürülmüş, o courseType'a çevirildi.
+10 - Student class'ına getCompletedCredit() methodu eklendi. CSE4297 dersi alırken kontrol için gerekli olan method.
+11 - Her kurs için quota bilgisi girmek yerine, createCourses() methodu içinde quota bilgisini random şekilde veriyoruz.
+12 - FileManager writeProblemToStudentFile() methoduna kurs tipine özel hata mesajı formatı yapıldı.
+13 - CourseManager içine getOpenedElectiveCourses() methodu eklendi. Bu dönem için sunulan elective kursları rasgele seçecek. Bunu studentManager çağıracak.
+14 - FileManager içine writeDetailedProblemToOutputFile eklendi. Problem analizini kurs bazında yapmak için.
+15 - FileManager writeProblemToFile silindi. Onun yerine writeProblemToStudentFile methodu içine kurs bazında hata yazdırma eklendi.
+
+YAPILACAKLAR:
+1 - Advisor'a CheckCollision methodu yazılacak.
+2 - FileManager writeProblemToStudentFile içine collision yazılacak.
