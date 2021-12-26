@@ -16,18 +16,16 @@ public class Student {
 		this.studentName = studentName;
 	}
 
-	
 	public int getCompletedCredit() {
 		int completedCredit = 0;
-		for(Course course: takenCourses.keySet()) {
-			if (takenCourses.get(course).equals("FF") || takenCourses.get(course).equals("FD")) continue;
+		for (Course course : takenCourses.keySet()) {
+			if (takenCourses.get(course).equals("FF") || takenCourses.get(course).equals("FD"))
+				continue;
 			completedCredit += course.getCredit();
 		}
 		return completedCredit;
 	}
 
-	
-	
 	// getter - setter
 
 	public String getStudentID() {
@@ -55,6 +53,39 @@ public class Student {
 	}
 
 	public float getGPA() {
+		double successCoefficient = 0;
+		int cumulativeCredit = 0;
+		float cumulativeSuccessCoefficient = 0;
+		if(takenCourses.isEmpty()) {
+			return 0.0F;
+		}
+		for (Course course : takenCourses.keySet()) {
+			if (takenCourses.get(course).equals("FF")) {
+				successCoefficient = 0.0;
+			} else if (takenCourses.get(course).equals("FD")) {
+				successCoefficient = 0.5;
+			} else if (takenCourses.get(course).equals("DD")) {
+				successCoefficient = 1.0;
+			} else if (takenCourses.get(course).equals("DC")) {
+				successCoefficient = 1.5;
+			} else if (takenCourses.get(course).equals("CC")) {
+				successCoefficient = 2.0;
+			} else if (takenCourses.get(course).equals("CB")) {
+				successCoefficient = 2.5;
+			} else if (takenCourses.get(course).equals("BB")) {
+				successCoefficient = 3.0;
+			} else if (takenCourses.get(course).equals("BA")) {
+				successCoefficient = 3.5;
+			} else if (takenCourses.get(course).equals("AA")) {
+				successCoefficient = 4.0;
+
+			}
+			cumulativeCredit += course.getCredit();
+			cumulativeSuccessCoefficient += course.getCredit() * successCoefficient;
+
+		}
+
+		gpa = (cumulativeSuccessCoefficient / cumulativeCredit);
 		return gpa;
 	}
 
@@ -98,4 +129,7 @@ public class Student {
 
 	}
 
+	public void setTakenCoursesForNew() {
+		this.takenCourses = new LinkedHashMap<Course, String>();
+	}
 }

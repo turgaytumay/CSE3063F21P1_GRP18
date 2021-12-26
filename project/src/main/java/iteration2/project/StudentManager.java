@@ -27,7 +27,8 @@ public class StudentManager {
 			// find grade of student.
 			int entry_year = Integer.parseInt(student.getStudentID().substring(4, 6));
 			student.setGrade(Math.min(21 - entry_year, 4));
-
+			student.setTakenCoursesForNew();
+			
 			// create random transcript for taken courses till now.
 			randomTranscript(student, semester, electiveCourses);
 

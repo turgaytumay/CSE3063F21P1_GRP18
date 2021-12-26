@@ -77,9 +77,10 @@ public class FileManager {
 			JSONObject studentObject = new JSONObject();
 			JSONArray studentCourses = new JSONArray();
 			studentObject.put("Student Name", student.getStudentName());
-			studentObject.put("Student Credit:", student.getCompletedCredit());
+			studentObject.put("Student GPA", student.getGPA());
+			studentObject.put("Student Credit", student.getCompletedCredit());
 			for (Course course : student.getTakenCourses().keySet()) {
-				studentCourses.add("Course Type: " + course.getCourseType() + ", Course Name: " + course.getCourseName()
+				studentCourses.add("Course Code: " + course.getCourseCode() + "Course Type: " + course.getCourseType() + ", Course Name: " + course.getCourseName()
 						+ ", Course Letter: " + student.getTakenCourses().get(course));
 			}
 

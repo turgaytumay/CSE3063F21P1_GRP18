@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class App {
 	public static void main(String[] args) {
-		String semester = "SPRING";
+		String semester = "FALL";
 		CourseManager courseManager = new CourseManager();
 		StudentManager studentManager = new StudentManager();
 
