@@ -12,21 +12,24 @@ public class App {
 		// Read datas: create courses and students.
 		// create courses with scheduling.
 		courseManager.createCourses();
-		// courseManager.printSchedule();
 
 		// create random students with random transcript.
-		studentManager.createRandomStudent(semester);
+		studentManager.createRandomStudent(semester, courseManager.getElectiveCourses());
 
 		// simulate registration process for each student.
-		studentManager.requestCourses(semester); // request courses and system checks.
+		studentManager.requestCourses(semester, courseManager.getOpenedElectiveCourses()); // request courses and system
+																						// checks.
 
-		// write problem analysis file and student's new transcript to their own files.
-		FileManager.writeProblemToFile("Quota", RegisterationManager.getQuotaProblems().keySet());
-		FileManager.writeProblemToFile("Prerequisite", RegisterationManager.getPrerequisiteProblems().keySet());
-		FileManager.writeProblemToFile("Collision", Advisor.getCollisionProblems().keySet());
-		FileManager.writeProblemToFile("Requirement", Advisor.getRequirementProblems().keySet());
-		
-		System.out.println("FINISHED");
-		courseManager.printSchedule();
+		// write problem to student's file and output file.
+		FileManager.writeProblemToStudentFile("Quota", RegisterationManager.getQuotaProblems(), semester);
+		FileManager.writeProblemToStudentFile("Prerequisite", RegisterationManager.getPrerequisiteProblems(), semester);
+		FileManager.writeProblemToStudentFile("Collision", Advisor.getCollisionProblems(), semester);
+		FileManager.writeProblemToStudentFile("Requirement", Advisor.getRequirementProblems(), semester);
+
+
+		/*
+		 * // write the course schedule. courseManager.printSchedule();
+		 */
+
 	}
 }

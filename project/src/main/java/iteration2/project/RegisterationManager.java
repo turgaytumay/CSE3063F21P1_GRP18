@@ -9,11 +9,11 @@ public class RegisterationManager {
 
 	public static void checkQuotaProblems(Student student) {
 		for (Course course : student.getRequestedCourses()) {
+
 			if (course.getQuota() == 0) {
 				if (QuotaProblems.get(student) == null) {
 					QuotaProblems.put(student, new ArrayList<Course>());
 				}
-				System.out.println("Quota problem: Student: " + student.getStudentName()+ ", Course: " + course.getCourseName());
 				QuotaProblems.get(student).add(course);
 			}
 		}
@@ -37,7 +37,7 @@ public class RegisterationManager {
 			if (requestedCourse.getPrerequisiteCourse() == null)
 				continue; // no need to check.
 			for (Course failedCourse : student.getFailedCourses()) {
-				if (requestedCourse.getPrerequisiteCourse().equals(failedCourse.getCourseName())) {
+				if (requestedCourse.getPrerequisiteCourse().equals(failedCourse.getCourseCode())) {
 					is_failed = true;
 					break;
 				}
@@ -47,7 +47,6 @@ public class RegisterationManager {
 				if (PrerequisiteProblems.get(student) == null) {
 					PrerequisiteProblems.put(student, new ArrayList<Course>());
 				}
-				System.out.println("Prerequisite problem.");
 				PrerequisiteProblems.get(student).add(requestedCourse);
 				is_failed = false; // reset.
 
@@ -61,6 +60,7 @@ public class RegisterationManager {
 				student.getRequestedCourses().remove(course);
 			}
 		}
+
 
 	}
 

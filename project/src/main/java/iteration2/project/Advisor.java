@@ -15,17 +15,15 @@ public class Advisor {
 		 */
 	}
 
-	// ALTSINIFLAR ICIN CHECKREQUIREMENT FONKSIYONUNUN ICI DOLDURULACAK.
-	public static void checkCourseRequirements(Student student) {
+	public static void checkCourseRequirements(Student student, String semester) {
 		// TE - NTE - FTE and Engineering Project requirement controls.
 		for (Course course : student.getRequestedCourses()) {
-			boolean is_taken = course.checkRequirement(student);
+			boolean is_taken = course.checkRequirement(student, semester);
 			if (!is_taken) {
 				if (RequirementProblems.get(student) == null) {
 					RequirementProblems.put(student, new ArrayList<Course>());
 				}
 				RequirementProblems.get(student).add(course);
-				student.getRequestedCourses().remove(course); // remove course from requested courses.
 			}
 		}
 
@@ -35,7 +33,7 @@ public class Advisor {
 				student.getRequestedCourses().remove(course);
 			}
 		}
-		
+
 	}
 
 	// Approval Courses.

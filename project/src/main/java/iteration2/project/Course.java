@@ -26,9 +26,8 @@ public class Course {
 	}
 	
 	// it will overloading by subclass.
-	public boolean checkRequirement(Student student) {
-		if(this.courseCode == "CSE4297" && student.getCompletedCredit() < 155) {
-			System.out.println("COURSE CHECKREQUIREMENT----------");
+	public boolean checkRequirement(Student student, String semester) {
+		if(this.courseCode.equals("CSE4297") && student.getCompletedCredit() < 155) {
 			return false;
 		}
 		return true;
@@ -104,7 +103,7 @@ public class Course {
 	}
 	
 	public String getCourseType() {
-		return courseName;
+		return courseType;
 	}
 
 	public void setCourseType(String courseType) {

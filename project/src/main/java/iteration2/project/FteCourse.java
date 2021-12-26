@@ -8,8 +8,19 @@ public class FteCourse extends Course{
 		super(courseSemester, courseCode, courseName, credit, akts, quota, courseType);
 	}
 	
-	// BURASI DOLDURULACAK.
-	public boolean checkRequirement(Student student) {
+	public boolean checkRequirement(Student student, String semester) {
+		int noOfFTECourses = 0;
+		for(Course course: student.getRequestedCourses()) {
+			if(course.getCourseCode().equals(this.getCourseCode())) continue;
+			if(course instanceof FteCourse) {
+				noOfFTECourses++;
+			}
+			
+		}
+		
+		// student can not take FTE courses more than 1.
+		if(noOfFTECourses >= 1) return false;
+		
 		return true;
 		
 	}

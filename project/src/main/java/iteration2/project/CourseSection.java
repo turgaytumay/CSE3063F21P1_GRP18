@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class CourseSection {
 	private int quota;
 	private HashMap<String, ArrayList<String>> schedule;
-	
+
 	public CourseSection(int quota) {
 		this.quota = quota;
 		this.schedule = new HashMap<String, ArrayList<String>>();

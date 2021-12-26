@@ -1,25 +1,31 @@
 package iteration2.project;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class Student {
 	private String studentID;
 	private String studentName;
 	private int grade;
 	private float gpa;
-	private HashMap<Course, String> takenCourses;
+	private LinkedHashMap<Course, String> takenCourses;
 	private ArrayList<Course> requestedCourses;
 
 	public Student(String studentID, String studentName) {
 		this.studentID = studentID;
 		this.studentName = studentName;
 	}
+
 	
-	// OGRENCININ GECTIGI DERSLERDEN TOPLAM KREDI HESAPLANACAK. BITIRME PROJESI KONTROLU ICIN.
 	public int getCompletedCredit() {
-		return 110;
+		int completedCredit = 0;
+		for(Course course: takenCourses.keySet()) {
+			if (takenCourses.get(course).equals("FF") || takenCourses.get(course).equals("FD")) continue;
+			completedCredit += course.getCredit();
+		}
+		return completedCredit;
 	}
+
 	
 	
 	// getter - setter
@@ -40,7 +46,6 @@ public class Student {
 		this.studentName = studentName;
 	}
 
-	
 	public int getGrade() {
 		return grade;
 	}
@@ -57,16 +62,15 @@ public class Student {
 		GPA = gpa;
 	}
 
-	public HashMap<Course, String> getTakenCourses() {
+	public LinkedHashMap<Course, String> getTakenCourses() {
 		return takenCourses;
 	}
 
 	public void setTakenCourses(Course takenCourse, String letterGrade) {
 		if (this.takenCourses == null)
-			this.takenCourses = new HashMap<Course, String>();
+			this.takenCourses = new LinkedHashMap<Course, String>();
 		this.takenCourses.put(takenCourse, letterGrade);
 	}
-
 
 	public ArrayList<Course> getRequestedCourses() {
 		return requestedCourses;
@@ -81,11 +85,12 @@ public class Student {
 	public ArrayList<Course> getFailedCourses() {
 		ArrayList<Course> temp = new ArrayList<Course>();
 		if (this.takenCourses != null) {
-			for(Course course: takenCourses.keySet()) {
-				if (takenCourses.get(course).equals("FF") || takenCourses.get(course).equals("--")) {
+			for (Course course : takenCourses.keySet()) {
+				if (takenCourses.get(course).equals("FF") || takenCourses.get(course).equals("--")
+						|| takenCourses.get(course).equals("FD")) {
 					temp.add(course);
 				}
-				
+
 			}
 		}
 
