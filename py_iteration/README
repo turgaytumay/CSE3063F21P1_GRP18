@@ -1,0 +1,34 @@
+Kodu çalıştırmak için kodların bulunduğu dizine "outputFiles" adında klasör açmak gerekiyor. "outputFiles" içine de "studentFiles" klasörü açmak gerekiyor.
+
+
+*Student class içinde get_completed_credit() doldurulacak.
+
+*Student class içinde calculate_gpa() doldurulacak.
+
+EKLENENLER:
+
+* Student Class'ına Schedule Class'ı eklendi.
+* Schedule Class ==> program = {day:{hours: Course}} // attribute
+		     addCourseToSchedule(Course, sectionNo) 
+		     check_collision(Course)  // check student schedule and return if there any collision.
+		     printSchedule() // print student weekly program
+
+* FileManager class'ı singleton class yapıldı ve methodlar sadeleştirildi ve azaltıldı.
+
+* ScheduleManager class'ının içine find_available_days(hours) methodu eklendi.
+	** Ders için rasgele gün ve saat seçilirken ders saatine uygun zamanı bulunan günlerin listesini döndürür.
+	   Daha önce bu kısım direk gün seçip zaman arıyordu sonsuz döngüye veya uzun süreli zaman bulma oluyordu.
+
+*Student Class içine is_prerequisite_failed(courseCode) methodu eklendi.
+	** BEFORE REGISTRATION kısmında öğrencilere rasgele transcript oluştururken önkoşul için kalma kontrolü yapıyor.
+	   önkoşulundan kalınan dersin harf notunu '--' yapıyor.
+			 
+			
+
+*CourseManager içine get_five_elective_courses(elective_type) methodu eklendi.
+	** RegistrationManager öğrenciye dersleri sunarken seçmeli derslerden 5'er tane açması için.
+
+*Registration sürecinin kontrolü RegistrationManager class'ına verildi.
+	** ilk 2 iteration'da StudentManager içinde çözülüyordu hepsi.
+
+* Tüm class methodlarında iyileştirmeler ve sadeleştirmeler yapıldı.
