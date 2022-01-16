@@ -3,7 +3,10 @@ import random
 from Course import Course
 from CourseManager import CourseManager
 from Student import Student
+import logging
 
+logging.basicConfig(filename='filemanager.log', level=logging.INFO,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
 
 class RegistrationManager:
     def __init__(self, student_list, course_manager: CourseManager):
@@ -65,21 +68,20 @@ class RegistrationManager:
 
     def print_requested_courses(self):
         for student in self.student_list:
-            print("Student Name: {}, Student Number: {}, Student Grade: {}".format(student.student_name,
+            logging.info("Student Name: {}, Student Number: {}, Student Grade: {}".format(student.student_name,
                                                                                    student.student_id,
                                                                                    student.grade))
             for course in student.requested_courses:
-                print("Course Code: {}, Course Type: {}, Course Semester: {}".format(course.course_code,
+                logging.info("Course Code: {}, Course Type: {}, Course Semester: {}".format(course.course_code,
                                                                                      course.course_type,
                                                                                      course.course_semester))
-            print("******************************")
+            logging.info("******************************")
 
     def start_to_control(self):
         for student in self.student_list:
             self.start_system_control(student)
             self.send_advisor(student)
             # student.schedule.print_schedule()  '''we can save student schedule to its file'''
-
 
     def start_system_control(self, student: Student):
         rejected_courses = []  # store rejected courses to delete from requested list.
@@ -113,19 +115,19 @@ class RegistrationManager:
         '''we can write this to file for logging.'''
         if len(rejected_courses) != 0:
             if student.student_id in self.quota_problems.keys():
-                print("For student: {}, rejected courses because of quota:"
+                logging.info("For student: {}, rejected courses because of quota:"
                       .format(student.student_name))
                 for problem in self.quota_problems[student.student_id]:
                     course_code = list(problem.keys())[0]
-                    print(course_code, end=', ')
-                print('\n***********')
+                    logging.info(course_code)
+                logging.info('\n***********')
             if student.student_id in self.prerequisite_problems.keys():
-                print("For student: {}, rejected courses because of prerequisite:"
+                logging.info("For student: {}, rejected courses because of prerequisite:"
                       .format(student.student_name))
                 for problem in self.prerequisite_problems[student.student_id]:
                     course_code = list(problem.keys())[0]
-                    print(course_code, end=', ')
-                print('\n***********')
+                    logging.info(course_code)
+                logging.info('\n***********')
 
     def send_advisor(self, student: Student):
         collesion_problems, requirement_problems = student.advisor.check_courses(student)
@@ -143,17 +145,17 @@ class RegistrationManager:
 
         '''we can write this to file for logging.'''
         if len(collesion_problems) != 0:
-            print("For student: {}, rejected courses because of collision:".format(student.student_id))
+            logging.info("For student: {}, rejected courses because of collision:".format(student.student_id))
             for problem in collesion_problems:
                 course_code = list(problem.keys())[0]
-                print(course_code, end=', ')
-            print('\n***********')
+                logging.info(course_code)
+            logging.info('\n***********')
         if len(requirement_problems) != 0:
-            print("For student: {}, rejected courses because of requirement problem:".format(student.student_id))
+            logging.info("For student: {}, rejected courses because of requirement problem:".format(student.student_id))
             for problem in requirement_problems:
                 course_code = list(problem.keys())[0]
-                print(course_code, end=', ')
-            print('\n***********')
+                logging.info(course_code)
+            logging.info('\n***********')
 
     # **controls**
     def check_quota_problems(self, course: Course):

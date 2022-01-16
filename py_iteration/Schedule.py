@@ -1,5 +1,8 @@
 import Course
+import logging
 
+logging.basicConfig(filename='filemanager.log', level=logging.INFO,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
 
 class Schedule:
     def __init__(self):
@@ -24,6 +27,6 @@ class Schedule:
 
     def print_schedule(self):
         for day in self.program:
-            print("****** " + day + " ******")
+            logging.info("****** " + day + " ******")
             for hours in self.program[day].keys():
-                print("{} --> {}".format(hours, self.program[day][hours].course_name))
+                logging.info("{} --> {}".format(hours, self.program[day][hours].course_name))

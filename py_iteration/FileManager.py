@@ -2,7 +2,10 @@ import json
 
 from Course import Course
 from Student import Student
+import logging
 
+logging.basicConfig(filename='filemanager.log', level=logging.INFO,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
 
 class FileManager:
     __instance = None
@@ -30,7 +33,7 @@ class FileManager:
         try:
             return self.course_data[course_category]
         except Exception as e:
-            print(e)
+            logging.critical(e)
 
     # read students
     def read_students(self):
@@ -42,7 +45,7 @@ class FileManager:
                 std_name = self.student_names_data[i]['name']
                 students[std_id] = std_name
         except Exception as e:
-            print(e)
+            logging.critical(e)
         finally:
             return students
 
